@@ -1,0 +1,22 @@
+{% extends 'events/navbar.html'%}
+{% block content %}
+{% if messages %}
+{% for message in messages %}
+<div class="alert alert-{{ message.tags }}">
+    {{ message }}
+</div>
+
+{% endfor %}
+{% endif %}
+<div class="container" style="height: 100%; padding-bottom: 2 rem;">
+    <h1 style="text-align: center; margin-top: 5%;">Nouveau projet</h1>
+<div class="container" style="height: 100%; margin-bottom: 2 rem;">
+    <form action="initiate_new_project" method="post" style="margin-left: auto; margin-right: auto; padding-bottom: 5%;">
+        {%csrf_token%}
+        {{ form.as_p }}
+            <button type="submit">Créer le projet</button>
+        
+    </form>
+</div>
+</div>
+{% endblock %}

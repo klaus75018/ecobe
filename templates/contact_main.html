@@ -1,0 +1,81 @@
+{% extends 'events/navbareco.html'%}
+{% block contento %}
+    <section class="fond_section6" id="section6" style="background-color: rgb(92, 63, 63); padding-bottom: 2rem;">
+
+        <div class="mbr-overlay fond2_sec6" ></div>
+        <div class="row" style="text-align: center; padding-top: 3rem;">
+        
+        </div>
+        <div class="row content-md-center" style="align-content: center;">
+            
+            <div class="col" id="contact_awy">
+                <!---Formbuilder Form--->
+                {% if messages %}
+                                {% for message in messages %}
+                                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Il nous faut un minimum !</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            {{message}}
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                                {% endfor %}
+                            {% endif %}
+                <form action=""
+                    method="POST" class="mbr-form form-with-styler" style="align-content: center;">
+                    {% csrf_token %}
+                    <div class="dragArea footform" >
+                        <h3 class="text-form">Contactez-nous</h3>
+                        <div class="awy-form-element" data-for="name">
+                            <label for="name-form1-u"
+                                class="form-control-label sub-text-form">Nom</label><br>
+                            <input type="text" name="username" data-form-field="Name"
+                                class="answers-text" id="name-form1-u">
+                        </div>
+                        
+                        <div class="awy-form-element" data-for="email">
+                            <label for="email-form1-u"
+                                class="form-control-label sub-text-form">Mail</label><br>
+                            <input type="email" name="useremail" data-form-field="Email" required="required"
+                                class="answers-text" id="email-form1-u">
+                        </div>
+
+                        <div data-for="phone" class="awy-form-element">
+                            <label for="phone-form1-u"
+                                class="form-control-label sub-text-form">Téléphone</label>
+                            <input type="tel" name="tel" data-form-field="Phone"
+                                class="answers-text" id="phone-form1-u">
+                        </div>
+
+
+                        <div data-for="message" class="awy-form-element">
+                            <label for="message-form1-u"
+                                class="form-control-label sub-text-form">Message</label><br>
+                            <textarea name="message" data-form-field="Message"
+                                class="answers-text" id="message-form1-u"></textarea>
+                        </div>
+                        <div class="col-md-12 input-group-btn align-center" style="color: greenyellow;">
+                            <button type="submit" class="btn btn-send-outline display-4 button_send">Envoyer</button>
+                        </div>
+                    </div>
+                </form>
+                <!---Formbuilder Form--->
+
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

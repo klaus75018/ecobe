@@ -1,0 +1,13 @@
+{% extends 'events/navbar.html'%}
+{% block content %}
+<form method="post" style="margin-left: auto; margin-right: auto; padding-bottom: 5%;">
+    <h1 style="text-align: center; margin-top: 5%;">Remarques - Commentaires - Suggestions</h1>
+    <div class="container" style="height: 100%; margin-bottom: 2 rem;">
+        <div class="form-group">
+            <label for="remarque">Dites nous tout</label>
+            <textarea class="form-control" id="remarque" name="remarque" rows="3"></textarea>
+        </div>
+        <button type="submit">Envoyer la remarque</button>
+    </div>
+{%csrf_token%}
+{%endblock%}

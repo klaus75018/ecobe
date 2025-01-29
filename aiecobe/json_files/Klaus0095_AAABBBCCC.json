@@ -1,0 +1,56 @@
+{
+    "sujet": "Informations g\u00e9n\u00e9rales du projet",
+    "children": [
+        {
+            "sujet": "Informations b\u00e2timent 1",
+            "children": [],
+            "attributes": []
+        },
+        {
+            "sujet": "b\u00e2timent",
+            "children": [],
+            "attributes": [
+                {
+                    "titre": "Surface du b\u00e2timent",
+                    "detail": "Le b\u00e2timent fait 1000 m\u00b2."
+                },
+                {
+                    "titre": "Type de b\u00e2timent",
+                    "detail": "C'est un ERP de type restaurant."
+                },
+                {
+                    "titre": "Capacit\u00e9 d'accueil",
+                    "detail": "Le b\u00e2timent contient 200 personnes."
+                }
+            ]
+        },
+        {
+            "sujet": "ERP",
+            "children": [],
+            "attributes": [
+                {
+                    "titre": "Type",
+                    "detail": "Restaurant"
+                },
+                {
+                    "titre": "Capacit\u00e9",
+                    "detail": "200 personnes"
+                }
+            ]
+        }
+    ],
+    "attributes": [
+        {
+            "titre": "project_name",
+            "detail": "AAABBBCCC"
+        },
+        {
+            "titre": "username",
+            "detail": "Klaus0095"
+        },
+        {
+            "titre": "thread_id",
+            "detail": "thread_KHCffAPURHtEgg2fisnitX29"
+        }
+    ]
+}

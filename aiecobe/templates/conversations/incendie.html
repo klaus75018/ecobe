@@ -1,0 +1,33 @@
+{% extends 'events/navbar.html'%}
+{% block content %}
+<section style="background-color: rgba(101, 108, 109, 0.598); padding-top: 3%; padding-bottom: 5%;">
+<div class="container" style="background-color: rgb(214, 209, 209); flex: 1 1 auto;  padding-top: 2%; padding-bottom: 2%;">  
+    <h1 style="text-align: center; ">Les réponses à vos interrogations sur la sécurité incendie</h1>
+    <h2 style="text-align: center; ">PROJET : {{project_name}}</h2>
+    
+    
+        {% if messages %}
+            <div class="card">
+                {% for message in messages %}
+                    {{message | linebreaks}}
+                {% endfor %}
+            </div>
+        {% endif %}
+    
+    <div class="container-sm">
+        <form method=POST>
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="user_message" class="form-label">Exprimez vous ici :</label>
+                <textarea class="form-control" name="user_message" rows="3"></textarea>
+              </div>
+        </br>
+            
+            <button type="submit">
+                Soumettre
+            </button>
+        </form>
+    </div>
+</div>
+</section>
+{% endblock %}

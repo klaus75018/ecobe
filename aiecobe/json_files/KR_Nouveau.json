@@ -1,0 +1,37 @@
+{
+    "sujet": "Informations g\u00e9n\u00e9rales du projet",
+    "children": [
+        {
+            "sujet": "b\u00e2timent d'habitation",
+            "children": [],
+            "attributes": [
+                {
+                    "titre": "Type de b\u00e2timent",
+                    "detail": "B\u00e2timent d'habitation"
+                },
+                {
+                    "titre": "Superficie",
+                    "detail": "1000 m\u00b2"
+                },
+                {
+                    "titre": "Famille du b\u00e2timent",
+                    "detail": "Troisi\u00e8me famille"
+                }
+            ]
+        }
+    ],
+    "attributes": [
+        {
+            "titre": "project_name",
+            "detail": "Nouveau"
+        },
+        {
+            "titre": "username",
+            "detail": "KR"
+        },
+        {
+            "titre": "thread_id",
+            "detail": "thread_iRg1BuUkhVzZWV2mlwZbEIWu"
+        }
+    ]
+}

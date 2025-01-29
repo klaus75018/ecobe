@@ -1,0 +1,59 @@
+{
+    "sujet": "Informations g\u00e9n\u00e9rales du projet",
+    "children": [
+        {
+            "sujet": "d\u00e9senfumage ERP",
+            "children": [],
+            "attributes": [
+                {
+                    "titre": "Type de b\u00e2timent",
+                    "detail": "ERP de cat\u00e9gorie 1"
+                },
+                {
+                    "titre": "Surface du b\u00e2timent",
+                    "detail": "10 000 m\u00b2"
+                },
+                {
+                    "titre": "Nombre d'\u00e9tages",
+                    "detail": "10 \u00e9tages"
+                },
+                {
+                    "titre": "Hauteur du b\u00e2timent",
+                    "detail": "60 m"
+                }
+            ]
+        },
+        {
+            "sujet": "caract\u00e9ristiques techniques d\u00e9senfumage",
+            "children": [],
+            "attributes": [
+                {
+                    "titre": "Surface",
+                    "detail": "10 000 m\u00b2"
+                },
+                {
+                    "titre": "\u00c9tages",
+                    "detail": "10"
+                },
+                {
+                    "titre": "Hauteur",
+                    "detail": "60 m"
+                }
+            ]
+        }
+    ],
+    "attributes": [
+        {
+            "titre": "project_name",
+            "detail": "exigence 4"
+        },
+        {
+            "titre": "username",
+            "detail": "KR"
+        },
+        {
+            "titre": "thread_id",
+            "detail": "thread_y6hcYfccqDTIOZLZP0AXMRha"
+        }
+    ]
+}

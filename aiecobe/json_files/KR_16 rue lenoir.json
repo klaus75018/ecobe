@@ -1,0 +1,43 @@
+{
+    "sujet": "Informations g\u00e9n\u00e9rales du projet",
+    "children": [
+        {
+            "sujet": "b\u00e2timents",
+            "children": [],
+            "attributes": [
+                {
+                    "titre": "Superficie du b\u00e2timent 1",
+                    "detail": "1500 m\u00b2"
+                },
+                {
+                    "titre": "Superficie du b\u00e2timent 2",
+                    "detail": "700 m\u00b2"
+                }
+            ]
+        },
+        {
+            "sujet": "projet",
+            "children": [],
+            "attributes": [
+                {
+                    "titre": "Nombre de b\u00e2timents",
+                    "detail": "2"
+                }
+            ]
+        }
+    ],
+    "attributes": [
+        {
+            "titre": "project_name",
+            "detail": "16 rue lenoir"
+        },
+        {
+            "titre": "username",
+            "detail": "KR"
+        },
+        {
+            "titre": "thread_id",
+            "detail": "thread_YQ6MnTt2ceX0CNtQat8QMM0t"
+        }
+    ]
+}

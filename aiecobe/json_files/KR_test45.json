@@ -1,0 +1,29 @@
+{
+    "sujet": "Informations g\u00e9n\u00e9rales du projet",
+    "children": [
+        {
+            "sujet": "Informations b\u00e2timent 1",
+            "children": [],
+            "attributes": []
+        },
+        {
+            "sujet": "Informations b\u00e2timent 2",
+            "children": [],
+            "attributes": []
+        }
+    ],
+    "attributes": [
+        {
+            "titre": "project_name",
+            "detail": "test45"
+        },
+        {
+            "titre": "username",
+            "detail": "KR"
+        },
+        {
+            "titre": "thread_id",
+            "detail": "thread_fXBblTyEoxIMQeQwqUxAB4IT"
+        }
+    ]
+}

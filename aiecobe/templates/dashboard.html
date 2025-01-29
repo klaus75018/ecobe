@@ -1,0 +1,67 @@
+{% extends 'events/navbar.html'%}
+{% block content %}
+
+    
+    <h1 style="text-align: center;">Tableau de bord</h1>
+    {%if projects%}
+    
+    <h2 style="text-align: center; margin-bottom: 1.5rem;">Vos projets</h2>
+    <ul>
+        {%for project in projects%}
+            <form method="post">
+                {%csrf_token%}
+            <div class="container" style="flex: 1 1 auto;">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <input type="text" class="form-control" name="project_name" value="{{project.name}}" aria-describedby="emailHelp" readonly>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    {%if incendie_studies %}
+                        {%for incendie_study in incendie_studies%}
+                            {%if incendie_study.project.name == project.name %}
+                                <div class="col-md-4">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <button type="submit" name="Incendie" value="{{project.name}}">Etude d'incendie</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                                
+                                
+                            {%endif%}
+
+                            
+                        {%endfor%}
+ 
+                    {%endif%}
+                    
+                    </div>
+                </div>
+            </div>
+            </form>
+
+        {%endfor%}
+        
+
+    </ul>
+    {%else%}
+    <div class="col">
+        <div class="container align-center" style="margin-bottom: 3rem; margin-top: 3rem;">
+          <a href="{% url 'initiate_new_project' %}"><button >Céez un </br>PROJET</button></a>
+      
+              
+          
+        </div>
+      </div>
+    {%endif%}
+
+
+    
+    
+        
+{% endblock %}
