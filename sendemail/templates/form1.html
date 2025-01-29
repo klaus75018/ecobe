@@ -1,0 +1,66 @@
+{% extends 'events/navbareco.html'%}
+{% block contento %}
+{% if messages %}
+    {% for message in messages %}
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Il nous faut un minimum !</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                {{message}}
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    {% endfor %}
+{% endif %}
+
+<form action="" method="POST" class="mbr-form form-with-styler" style="margin-top: 200px;">
+    {% csrf_token %}
+    <div class="row">
+        <div data-form-alert="" class="alert alert-success col-12" hidden="hidden">Thanks for filling out the form!</div>
+        <div data-form-alert-danger="" class="alert alert-danger col-12" hidden="hidden">
+        </div>
+    </div>
+
+    <div class="dragArea row">
+        <div class="col-sm">                                       
+            <div class="input-group mb-3">
+            <!-- <span class="input-group-text" id="basic-addon1">Nom</span>-->
+                <input type="text" class="form-control form-control-sm" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" name="username">
+            </div>
+
+
+            <div class="input-group mb-3">
+                <!--<span class="input-group-text" id="basic-addon1">Message</span>-->
+                <input type="text" class="form-control form-control-sm" placeholder="Message" aria-label="Message" aria-describedby="basic-addon1" name="message">
+            </div>
+        </div>
+
+        <div class="col-sm">
+            <div class="input-group mb-3">
+                <!--<span class="input-group-text" id="basic-addon1">Telephone</span>-->
+                <input type="text" class="form-control form-control-sm" placeholder="Telephone" aria-label="Telephone" aria-describedby="basic-addon1" name="telephone">
+            </div>
+            <div class="form-group " data-for="email">
+                <input type="email" placeholder="Email" data-form-field="Email" required="required" class="form-control form-control-sm" id="email-header15-f" name="useremail">
+            </div>
+        </div>
+        <div class="col-sm-12 input-group-btn " style="vertical-align: middle; margin-top: 0.5rem; max-height: 1%; line-height: 1%;"><button type="submit" class="btn btn-form btn-primary display-4" style="max-height: 10%;">Envoyer</button>
+        </div>
+    </div>
+</form>
+
+{% endblock %}
+
+

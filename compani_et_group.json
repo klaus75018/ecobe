@@ -1,0 +1,372 @@
+[
+    {
+        "id": 48,
+        "name": "??",
+        "company_offer_sub_trade_price": 0.0,
+        "sub_trade_intervention_group_details": [
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "name": "BOUYGUES",
+        "company_offer_sub_trade_price": 0.0,
+        "sub_trade_intervention_group_details": [
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "name": "DB",
+        "company_offer_sub_trade_price": 0.0,
+        "sub_trade_intervention_group_details": [
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "name": "DUMEZ",
+        "company_offer_sub_trade_price": 0.0,
+        "sub_trade_intervention_group_details": [
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "name": "KAP",
+        "company_offer_sub_trade_price": 0.0,
+        "sub_trade_intervention_group_details": [
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "name": "AEQUO",
+        "company_offer_sub_trade_price": 0.0,
+        "sub_trade_intervention_group_details": [
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "name": "TERIDEAL",
+        "company_offer_sub_trade_price": 0.0,
+        "sub_trade_intervention_group_details": [
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "name": "AE2Final",
+        "company_offer_sub_trade_price": 0.0,
+        "sub_trade_intervention_group_details": [
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "name": "TX&BPU",
+        "company_offer_sub_trade_price": 0.0,
+        "sub_trade_intervention_group_details": [
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "name": "AXONE",
+        "company_offer_sub_trade_price": 0.0,
+        "sub_trade_intervention_group_details": [
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            },
+            {
+                "id": 155,
+                "name": "AXONE groupe : 5",
+                "group_price": 129871.87999999999,
+                "company_ref": ""
+            }
+        ]
+    }
+]

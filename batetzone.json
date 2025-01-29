@@ -1,0 +1,87 @@
+[
+    {
+        "id": 41,
+        "building_id": 0,
+        "building_name": "caca",
+        "concerned_areas": [
+            {
+                "id": 79,
+                "zone_id": 0,
+                "zone_name": "ERP"
+            },
+            {
+                "id": 79,
+                "zone_id": 0,
+                "zone_name": "ERP"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "building_id": 0,
+        "building_name": "MSF Paris",
+        "concerned_areas": [
+            {
+                "id": 79,
+                "zone_id": 0,
+                "zone_name": "ERP"
+            },
+            {
+                "id": 79,
+                "zone_id": 0,
+                "zone_name": "ERP"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "building_id": 0,
+        "building_name": "Stand de tire 93 ",
+        "concerned_areas": [
+            {
+                "id": 79,
+                "zone_id": 0,
+                "zone_name": "ERP"
+            },
+            {
+                "id": 79,
+                "zone_id": 0,
+                "zone_name": "ERP"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "building_id": 0,
+        "building_name": "Tribunal de Nanterre ",
+        "concerned_areas": [
+            {
+                "id": 79,
+                "zone_id": 0,
+                "zone_name": "ERP"
+            },
+            {
+                "id": 79,
+                "zone_id": 0,
+                "zone_name": "ERP"
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "building_id": 0,
+        "building_name": "11 TISSERANT ",
+        "concerned_areas": [
+            {
+                "id": 79,
+                "zone_id": 0,
+                "zone_name": "ERP"
+            },
+            {
+                "id": 79,
+                "zone_id": 0,
+                "zone_name": "ERP"
+            }
+        ]
+    }
+]

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <meta name="description" content="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>        
+    <link rel="stylesheet" href="{% static 'ecobe/assets/web/assets/mobirise-icons/mobirise-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'ecobe/assets/tether/tether.min.css' %}">
+    <!--<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">-->
+    <link rel="stylesheet" href="{% static 'ecobe/assets/dropdown/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'ecobe/assets/socicon/css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'ecobe/assets/theme/css/style.css' %}">
+
+    <link rel="stylesheet" href="{% static 'ecobe/assets2/web/assets/awy-icons/awy-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'ecobe/assets2/tether/tether.min.css' %}">
+    <!--<link rel="stylesheet" href="assets2/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets2/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets2/bootstrap/css/bootstrap-reboot.min.css">-->
+    <link rel="stylesheet" href="{% static 'ecobe/assets2/dropdown/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'ecobe/assets2/socicon/css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'ecobe/assets2/theme/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'ecobe/assets2/awy/css/mbr-additional.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'ecobe/assets2/awy/css/lp_maecia.css' %}" type="text/css">
+
+    <!--<link rel="stylesheet" href="assets/SUPP/css/klaus.css">-->
+    <link rel="stylesheet" href="{% static 'ecobe/assets/mobirise/css/mbr-additional.css' %}" type="text/css">
+    
+    <link rel="stylesheet" href="{% static 'ecobe/assets/CSS/ecobeCSS.css' %}">
+    <style>
+        .footer {
+           position: relative;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+        }
+        </style>
+    
+    <title>ECOBE_AI</title>
+</head>
+<body>
+    {% load static %}
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="{% static 'ecobe/assets/images/ECOBE_AIblanc.png' %}" alt="ECOBE" style="width: 6rem; display: block; margin-bottom: auto; margin-top: auto;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="{% url 'homeai' %}">Home</a>
+            </li>
+            {% if user.is_authenticated %}
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'dashboard' %}">Dash board</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'remarks' %}">Commentaires / Suggestions / ...</a>
+                    </li>
+                <li class="nav-item">
+                <a class="nav-link" href="{% url 'logout' %}">Logout</a>
+                </li>
+            {% else %}
+                <li class="nav-item">
+                <a class="nav-link" href="{% url 'login' %}">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'register_user' %}">Register</a>
+                </li>
+            {% endif %}
+        </ul>
+        </div>
+    </div>
+  </nav>
+  {% block content %}
+  {% endblock %}
+    <div class="footer  ">
+        
+            <div style="padding-top: 1rem; padding-bottom: 1rem; background-color: rgb(46, 42, 42); margin-left: 0; margin-right: 0; width: 100%;">
+                <div class="media-container-row content text-white">
+                    <div class = "row" style="width: 100%;">
+                        <div class="col" style="align-items: center;">
+                            <div class="media-wrap">
+                                <a href="">
+                                    <img src="{% static 'ecobe/assets/images/ECOBE_AIblanc.png' %}" style="max-width: 70%; display: block; margin-top: 3rem; margin-bottom: auto; margin-left: auto; margin-right: auto;" title="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col" style="align-items: left;">
+                            <div class="mbr-fonts-style display-7">
+                                <h5 class="pb-3">
+                                    Adresse :
+                                </h5>
+                                <p class="mbr-text">9, rue legras<br>93210 La plaine Saint-Denis</p>
+                            </div>
+                            <div class="mbr-fonts-style display-7">
+                                <h5>E-mail :</h5>  <p class="mbr-text">contact@ecobe.pro&nbsp;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+       
+    </div>
+    <script src='{% static "ecobe/assets/web/assets/jquery/jquery.min.js" %}'></script>
+  <script src='{% static "ecobe/popper/popper.min.js" %}'></script>
+  <script src='{% static "ecobe/assets/tether/tether.min.js" %}'></script>
+  <script src='{% static "ecobe/assets/bootstrap/js/bootstrap.min.js" %}'></script>
+  <script src='{% static "ecobe/assets/smoothscroll/smooth-scroll.js" %}'></script>
+  <script src='{% static "ecobe/assets/dropdown/js/nav-dropdown.js" %}'></script>
+  <script src='{% static "ecobe/assets/dropdown/js/navbar-dropdown.js" %}'></script>
+  <script src='{% static "ecobe/assets/touchswipe/jquery.touch-swipe.min.js" %}'></script>
+  <script src='{% static "ecobe/assets/parallax/jarallax.min.js" %}'></script>
+  <script src='{% static "ecobe/assets/theme/js/script.js" %}'></script>
+  <script src='{% static "ecobe/assets/formoid/formoid.min.js" %}'></script>
+  <script>
+      $(function () {
+          $('[data-toggle="popover"]').popover()
+      })
+
+      $(function () {
+          $('.example-popover').popover({
+          container: 'body'
+          })
+      })
+  </script>
+</body>
+</html>

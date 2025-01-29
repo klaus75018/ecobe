@@ -1,0 +1,50 @@
+[
+    {
+        "id": 64,
+        "name": "MSF Paris",
+        "construction_date": "1650-01-01",
+        "buildings_surfaces": [
+            {
+                "id": 65,
+                "name": "SUB",
+                "value": 1108.0
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Stand de tire 93 ",
+        "construction_date": "1650-01-01",
+        "buildings_surfaces": [
+            {
+                "id": 65,
+                "name": "SUB",
+                "value": 1108.0
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Tribunal de Nanterre ",
+        "construction_date": "1650-01-01",
+        "buildings_surfaces": [
+            {
+                "id": 65,
+                "name": "SUB",
+                "value": 1108.0
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "name": "11 TISSERANT ",
+        "construction_date": "1650-01-01",
+        "buildings_surfaces": [
+            {
+                "id": 65,
+                "name": "SUB",
+                "value": 1108.0
+            }
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+{% extends 'events/navbar.html'%}
+{% block content %}
+    
+    <h1 style="text-align: center;">Login</h1>
+    
+    
+        {% if messages %}
+            <div class="alert alert-warning" role="alert">
+                {% for message in messages %}
+                    {{message}}
+                {% endfor %}
+            </div>
+        {% endif %}
+    
+    <div class="container-sm">
+        <form method=POST>
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="exampleUserName" class="form-label">User name</label>
+                <input type="text" class="form-control" name="username" aria-describedby="emailHelp">
+                
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" name="password">
+            </div>
+        </br>
+            
+            <button type="submit">
+                C'est Parti !
+            </button>
+        </form>
+    </div>
+    <div style="text-align: center; margin-bottom: 2rem;"><a href="/members/password">Forgot your password ?</a></div>
+{% endblock %}

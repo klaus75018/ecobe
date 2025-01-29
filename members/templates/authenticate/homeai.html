@@ -1,0 +1,54 @@
+{% extends 'events/navbar.html'%}
+{% block content %}
+{% load static %}
+<section style="background-color: rgba(111, 127, 129, 0.598);">
+  <div class="container" style="background-color: rgb(212, 205, 205); padding-top: 2%; padding-bottom: 2%;">  
+    <div class="row"> 
+
+    </div> 
+  </br> 
+  </br>  
+    <div class="row">   
+      <div class="container align-center">
+        <div class="row align-items-center" >
+          <div style="position: center;">
+            <img class="logohead" style = "margin-top: 0.3rem; margin-bottom: 1.2rem; display: block; margin-left: auto; margin-right: auto; width: auto;" src="{% static 'ecobe/assets/images/ECOBE_AI-doc-2.png' %}" title="ECOBE_AI" >
+          </div>
+        </div>
+      </div>
+    </div>
+  </br>
+    <div class="row">      
+        <h2 style="text-align: center; font-weight: bold;">Intelligence artificielle spécialisée en bâtiment & immobilier</h2>
+    </div>
+    <div class="row"> 
+      <div class="container">
+          <h5 style="text-align: center;">Découvrez gratuitement les premieres versions de nos assistants spécialisés.</br>Vos questions, commentaires, ou suggestions sont bienvenues. </br>Nous souhaitons orienter le dévellopement de ce service en fonction de vos besoins. </br> </h5>
+          <h3 style="text-align: center; font-weight: bold;">Testez nos premiers modèls en version Béta :</h3>
+      </div>
+    </div>
+    <div class="row"> 
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="container align-center">
+              <form action="{% url 'initiate_new_project' %}"><input type="submit" class="btn-34" value="Créer un projet" /></form>
+              <!--<a href="{% url 'initiate_new_project' %}"></a>-->
+          
+                  
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <h4 style="text-align: center;">Ou bien accédez directement à vos projets déjà existants</h4>
+      <div class="container align-center">
+        <form action="{% url 'dashboard' %}"><input type="submit" class="btn-34" value="Mes projets existants" /></form>
+      </div> 
+    </div>
+  </div>
+  
+</section>
+{% endblock %}
