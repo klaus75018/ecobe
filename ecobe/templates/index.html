@@ -1,0 +1,307 @@
+{% extends 'events/navbareco.html'%}
+{% block contento %}
+{% load static %}
+<div class="cid-rue8Xuf3ow" style="width: 100%; left: 0;   right: 0;">
+    
+<section style="background-color: transparent;"  id="header15-f">
+ 
+    
+
+    <div class="container align-center" >
+
+        <div class="row">
+            <div> <img class="logohead" src="{% static 'ecobe/assets/images/ECOBEvide.png' %}" title=""></div>
+            {% if messages %}
+                        {% for message in messages %}
+                            <div class="card text-bg-success mb-3">
+                                <div class="card-body">
+                              
+                                            
+                                          
+                                    {{message}}
+                                </div>
+                                      
+                            </div>
+                            
+                            {% endfor %}
+                        {% endif %}
+            <h4 style="font-weight: 700; color: whitesmoke;">Expertise conseil indépendante, spécialiste des bâtiments existants</h4>
+            
+        </div>
+
+        <div class="row" style="padding-top: 1rem; ">
+            
+            <h1 class="mbr-section-title mbr-semibold pb-3 mbr-fonts-style display-1" style="color: white;"><strong>La stratégie de gestion, en pleine maitrise des paramètres techniques</strong> </h1>
+        </div> 
+        <div class="row headtext3" style="margin-bottom: 2rem;">  
+            <h4 style="font-weight: 600; color: whitesmoke; line-height: 1.2;">De la due diligence à l'exploitation</h4>
+            <h4 style="font-weight: 600; color: whitesmoke; line-height: 1.2;">Performances énergétiques & impact carbone, conformité aux articles 8 ou 9, labélisation ISR, stratégie "best in progress" ou vision long terme du propriétaire exploitant</h4>
+        <h4 style="font-weight: 600; color: whitesmoke; margin-top: 0.7rem; line-height: 1.2;">Définissez les meilleures objectifs et le timing optimal, en parfaite adéquation avec les caractéristiques techniques de vos actifs</h4>
+        
+        </div>
+        
+        <div class="row align-items-center" style="line-height: normal;">
+            <div class="media-container-column" style="line-height: normal;">
+                <div class="form-container  align-center headform" style="line-height: normal; width: 30rem; max-width: 100%;">
+                    <div style="text-align: center;"><h4 style=" color: #e3f2fd;">Être contacté directement</h4>
+                    </div>
+                    <div class="media-container-column" style="line-height: normal;">
+                        <!---Formbuilder Form--->
+                        
+
+                        <form action="" method="POST" class="mbr-form form-with-styler" style="margin-top: 3px; line-height: normal;">
+                            {% csrf_token %}
+
+                            <div class="dragArea row" style="line-height: normal;">
+                                <div class="col-md" style="line-height: normal;">                                       
+                                    <div class="input-group mb-3" style="line-height: normal;">
+                                    <!-- <span class="input-group-text" id="basic-addon1">Nom</span>-->
+                                        <input type="text" class="form-control form-control-md" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" name="username">
+                                    </div>
+                                </div>
+                                <div class="col-md"> 
+                                    <div class="input-group mb-3">
+                                        <!--<span class="input-group-text" id="basic-addon1">Telephone</span>-->
+                                        <input type="text" class="form-control form-control-md" placeholder="Telephone" aria-label="Telephone" aria-describedby="basic-addon1" name="telephone">
+                                    </div>
+                                </div>
+                                <div class="col-md"> 
+                                    <div class="form-group " data-for="email">
+                                        <input type="email" placeholder="Email" data-form-field="Email" required="required" class="form-control form-control-md" id="email-header15-f" name="useremail">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dragArea row">
+                                <div class=" input-group-btn " style="vertical-align: middle; margin-top: 0.5rem; max-height: 1%; line-height: 1%;"><button type="submit" class="btn btn-form btn-primary display-4" style="max-height: 10%;">Envoyer</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+</div>
+<section class="fond_section2" style="padding-top: 3rem; padding-bottom: 3rem;" id="section2">
+
+    <div class="container custom_container" style="padding-top: 1.5rem; padding-bottom: 1.5rem;">
+        <h1>Deux expertises, un partenaire</h1></br>
+        <div class="row" style="padding-top: 2rem;">
+            <div class="col-md" >
+                <h2>Pour qui ?</h2>
+                <p>Du fonds d'investissement au propriétaire exploitant.</br>
+                    Toutes les typologies d'actifs sont concernées par les défis du développement durable. </br>La bonne stratégie, à court ou long terme, audacieuse ou prudente, vise des objectifs réalistes, définis à partir d'une parfaite connaissance du contexte et des contraintes techniques.</p>
+            </div>
+            <div class="col-md">
+                <h2>Pourquoi ?</h2>
+                <p>Respecter les évolutions règlementaires en maitrisant les investissements, optimiser les coûts d'exploitation, se conformer aux article 8 ou 9, obtenir une labélisation ISR, définir le programme travaux le plus pertinent pour un gain de performance maximum...</br>
+                    L'expertise environnementale et technique doivent être conduites ensemble afin de mutualiser les actions (maintenance courante et optimisations), </br>et éviter les approches divergentes, trop souvent observées lors des approches en silo.</p>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 2rem;">
+            <div class="col">
+                <h2>Comment ?</h2>
+                <p>Nos prestations sont définies et menées en fonction du besoin de notre client. Chaque projet est unique.</br>
+                    Pour garantir votre satisfaction, nous vison un service d'excellence qui repose sur 3 piliers : </p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-sm">
+                <p style="color: #7a7d7f;">
+                <button class="btn" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample" style="margin: 0%; padding: 0.3rem; color: darkgreen;">
+                    <h5>Expertises énergie/environnement & technique maitrisées en interne</br><img  src="{% static 'ecobe/assets/images/fleche.png' %}" style="width: 2rem;"></h5>
+                </button>
+                </p>
+                <div class="collapse" id="collapseExample1">
+                <div class="card card-body" style="padding: 0%;">
+                    <p style="margin-bottom: 0%; text-align: justify;">Fondement principale du service que nous souhaitons offrir.</br>
+                        Nous considérons que ces deux analyses doivent impérativement être menée conjointement pour identifier à la fois :<ul style="text-align: left; font-size: medium; margin-top: 0%;">
+                        <li>Le potentiel réaliste d'optimisation d'un bâtiment,  </li> 
+                        <li>L’intégralité des leviers d'action. Pertinents compte tenu des caractéristiques techniques et de l'usage,</li> 
+                        <li>La priorisation de ces actions,</li>
+                        <li>Les mutualisations possibles avec les travaux à prévoir dans tous les cas. (Entretien/maintenance et/ou contrainte rèlementaires)</li>
+                        </ul> 
+                    </p>
+                </div>
+                </div>
+                <!-- <h5>Expertises énergie/environnement & technique maitrisées en interne </h5>
+                <p style="margin-bottom: 0%;">Fondement principale du service que nous souhaitons offrir. </br>
+                    Nous considérons que ces deux analyses doivent impérativement être menée conjointement pour identifier à la fois :<ul style="text-align: left; font-size: medium; margin-top: 0%;">
+                    <li>le potentiel réel d'optimisation d'un bâtiment, </li> 
+                    <li>l'intégralité des leviers d'action, réalistes et pertinents compte tenu des caractéristiques techniques et de l'usage,</li> 
+                    <li>la priorisation de ces actions,</li>
+                    <li>les mutualisations possibles avec les opérations d'entretien/maintenance qui seront à prévoir dans tous les cas.</li>
+                    </ul> 
+                </p>-->
+            </div>
+            <div class="col-sm">
+                <p>
+                    <button class="btn " type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample" style="margin: 0%; padding: 0.3rem;  color: darkgreen;">
+                        <h5>Expérience et maitrise des spécificités de chaque typologie d'actif</br><img  src="{% static 'ecobe/assets/images/fleche.png' %}" style="width: 2rem;"></h5>
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample2">
+                <div class="card card-body" style="padding: 0%;">
+                    <p style="margin-bottom: 0%; text-align: justify;">L'approche d'analyse doit prendre en compte des paramètres clés pour aboutir à des conclusions pertinentes<ul style="text-align: left;">
+                        <li>Augmenter le potentiel : Travaux </br><p style="text-align: center; margin-bottom: 0%;"> ou/et </p>Optimiser l'exploitation pour libérer les performances inexploitées</li>
+                        <li>Spécificités et contraintes liées au mode constructif et l'époque de construction</li>
+                        <li>Spécificités et contrainte induites par l'activité et l'usage du bâtiment / la typologie de l'actif</li>
+                        <li>Spécificités et contrainte induites par l'environnement</li>
+                        <li>Impact global de chaque action envisagée : Travaux induits, coût global, flexibilité d'usage et de transformation, résilience...</li>
+                    </ul></p>
+                </div>
+                </div>
+                <!--<h5>Maitrise des particularités de chaque cas :</h5>  
+                <p><ul style="text-align: left;">
+                    <li>Augmenter le potentiel : travaux </br><p style="text-align: center; margin-bottom: 0%;"> V.S.</p>Optimisation l'exploitation pour libérer les performances inexploitées</li>
+                    <li>Spécificités et contraintes liées au mode constructif et l'époque de construction</li>
+                    <li>Spécificités et contrainte induites par l'activité et l'usage du bâtiment / la typologie de l'actif</li>
+                    <li>Spécificités et contrainte induites par l'environement</li>
+                    <li>Impact global de chaque action envisagée : Travaux induits, cout global, flexibilité d'usage et de transformation, résilience...</li>
+                </ul></p>-->
+            </div>
+            <div class="col-sm">
+                <p>
+                    <button class="btn" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample" style="margin: 0%; padding: 0.3rem;  color: darkgreen;">
+                        <h5>Connaissance précise des métiers de nos client et de leurs problématiques</br><img  src="{% static 'ecobe/assets/images/fleche.png' %}" style="width: 2rem;"></h5>
+                        
+
+                    </button>
+                </p>
+                <div class="collapse" id="collapseExample3">
+                <div class="card card-body" style="padding: 0%;">
+                    <p style="margin-bottom: 0%; text-align: justify;">Chaque métier impliquant la gestion d'un ou plusieurs actifs immobiliers a des enjeux qui lui sont propres. Les besoins et priorités sont impactés par la stratégie propre à chacun de nos clients, leur organisation opérationnelle, et la typologie d'actif qu'ils détiennent.</br>
+                        Une bonne compréhension des objectifs et des priorités de chacun de notre client est la garanti de fournir un service parfaitement adapté au besoin.</p>
+                </div>
+                </div>
+                <!--<h5>Connaissance précise des métiers de nos client</h5>
+                <p>Chaque metier impliquant la gestion d'un ou plusieurs actifs immobiliers a des enjeux qui lui sont propres. Le besoin et les priorités de chacun de nos client sont égallement impactés par sa stratégie propre, son organisation opérationnelle, et la typologie d'actif qu'il détient.</br>
+                Une bonne compréhension des objectifs et des priorités de chacun de nos client est la garanti de fournir un service parfaitement adapté au besoin</p>-->
+            </div>                    
+        </div>
+    </div>
+</section>
+
+<section class="fond_section3" style="padding-top: 2rem;" id="section3">
+    
+    <div class="container custom_container" style="padding-top: 1.5rem; padding-bottom: 1.5rem;">
+        <h1 style="text-align: center;">Missions principales</h1></br>
+        <div class="row justify-content-lg-center align-items-center">
+            <div class="col-lg-5 col_sect3-1-1">
+                <img class="picture_sec3" src="{% static 'ecobe/assets/images/duedil.png' %}" alt="" style="max-width: 100%; padding-top: 0%; vertical-align: middle;">
+            </div>
+
+            <div class="col-lg-7 col_sect3-1-2" id="sous-section1">
+                <h3 class="text_sect3 no_justify" style="padding-top: 1rem;">Due diligences technique et ESG combinées</h3>
+                <h4 class="sub_text_sect3">L'immobilier est maintenant engagé sur la voie du développement durable et les défis à relever sont nombreux.</br>
+                    La due diligence ESG est de ce fait d'une importance de plus en plus capitale et il n'est plus envisageable que ses conclusions soient décorrélées de la réalité technique et des contraintes du bâtiment.</br>
+                    Pour appréhender réellement la capacité d'un actif à répondre aux obligations règlementaires actuelles et à venir. Pour évaluer ses capacités à évoluer vers les standards de demain. Et pour estimer au plus juste les investissements nécessaires à ces évolutions. L'analyse ESG se doit d'être réalisée avec une grande maitrise technique. </br> 
+                    En réalisant conjointement ces deux études au sein d'un même cabinet, nous pouvons garantir à la fois une prestation de qualité et en phase avec la réalité, mais surtout, une capacité augmenté à identifier les mutualisations possibles entre maintenance lourde et travaux d'optimisations des performances.</h4>    
+                    
+            </div>
+        </div>
+        
+        <div class="row justify-content-lg-center align-items-center" id="sous-section2">
+            <div class="col-lg-7 col_sect3-2-1">
+                <h3 class="text_sect3 no_padding no_justify">Audits énergétiques et environnemental / stratégie décret tertiaire</h3>
+                <h4 class="sub_text_sect3 no_padding">Pour vous fournir l’analyse menant aux meilleures préconisations. Nous devons adapter notre proposition suivant la situation précise de l'actif à l'instant t.</br> 
+                    L’audit énergétique est devenu un terme générique, et chaque bureau d’études vend une prestation souvent standardisée sans réellement se soucier qu’elle soit adaptée à la situation.</br>
+                    Nous saurons répondre à tous cahier des charges prédéfini, compte tenu de nos quinze années d’expertises dans le domaine. Cependant, d’expérience, nous préconisons un procédé itératif initié par un premier échange afin d'adapter notre prestation à la situation et aux objectifs</br>
+                    Envisager des travaux d'amélioration sur un bâtiment qui surconsomme compte tenu d'une exploitation non optimale, est l'erreur la plus commune et peut être lourde en conséquence.</br>
+                    L’audit doit il porter sur le bâtiment et ses équipements, ou bien sur la qualité de l’exploitation ? Ou encore sur les deux ?</br>
+                    Est-il pertinent de réaliser une modélisation thermique dynamique d’entrée de jeux ?</br>
+                    Réaliser des mesures enregistrements préalablement à l’étude est il nécessaire ?</br>
+                    Vise t’on en priorité un label ? Une note sur le DPE, une conformité règlementaire, une réduction des coûts ?</br>
+                    Les réponses à ces questions dépendent de la situation et y répondre garantira une étude pertinente, visant au plus juste, et offrant la meilleure garantie de résultats.
+                   </h4>    
+                    
+            </div>
+            <div class="col-lg-5 col_sect3-2-2 col_sect3-2b">
+                <img class="picture_sec3" src="{% static 'ecobe/assets/images/auditenergie.png' %}" alt="" style="max-width: 100%; padding-top: 0%; vertical-align: middle;">
+            </div>
+        </div>
+
+        <div class="container custom_container" id="sous-section3">
+            <div class="row justify-content-lg-center align-items-center">
+                <div class="col-lg-5 col_sect3-1-1">
+                    <img class="picture_sec3" src="{% static 'ecobe/assets/images/audittech.png' %}" alt="" style="max-width: 100%; padding-top: 0%; vertical-align: middle;">
+            </div>
+
+                <div class="col-lg-7 col_sect3-1-2">
+                    <h3 class="text_sect3 no_justify">Audit technique TCE / de la maintenance / ciblé</h3>
+                    <h4 class="sub_text_sect3">Propriétaire exploitant ou fonds d'investissement, la bonne stratégie nécessite la maitrise des paramètres techniques de vos actifs.</br>
+                        Anticiper les investissements sur les années à venir : maintenance lourde, mise en conformité, vétusté. S'assurer de la qualité de l'exploitation et de la maintenance, gage de durabilité, identifier l'origine d'un désordre récurrent, …<br>
+                        Pour définir les budgets au plus juste ou identifier les opportunités de revalorisation. La connaissance et la maitrise des paramètres techniques vous permet de prendre les meilleures décisions.<br>
+                        Nous adaptons notre approche en fonction de votre besoin. Du propriétaire exploitant avec une vision très long termes, jusqu'au fond déployant une stratégie "best in progress" ou visant une conformité article 8 ou 9, ou encore une labélisation ISR.</h4>    
+                        
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-lg-center align-items-center" id="sous-section4">
+            <div class="col-lg-7 col_sect3-2-1">
+                <h3 class="text_sect3 no_padding no_justify">Etude de faisabilité & programme technique détaillé</h3>
+                <h4 class="sub_text_sect3 no_padding">Pour vous permettre d'engager un projet en toute maitrise des risques, il peut être essentielle de réaliser une étude de faisabilité avant d'engager réellement le projet.</br>
+                    Toute incertitude au lancement de la conception ou pire, au démarrage des travaux, est généralement source de dérives conséquentes et sur le planning et sur le budget. D'importantes somme étant à ce moment déjà engagée, la maitrise d'ouvrage se retrouve dans la situation du piège abscons.</br>
+                    Nuisances sonore, sujet de structure, normes, PLU, travaux induits, Les causes de revue à la hausse des budgets, voire de non-faisabilité d'un projet peuvent être de toutes sortes. L'identification et l'évaluation des risques requiert une analyse experte et expérimentée. Ceci afin de conforter le programme envisagé en l'état, ou bien d'y apporter les compléments nécessaires en indiquant les coûts induits.</br>
+                    Nos études permettent ainsi de conforter la maitrise d'ouvrage dans ses budgets, et permettent d'orienter au mieux la maitrise d'œuvre en phase de conception.</br></br>
+                    Le projet définitivement validé, la rédaction d'un programme technique et fonctionnel à destination de la maitrise d'œuvre est la garanti de disposer à la fois d'un document de référence, listant de façon exhaustive les exigences programmatiques, mais aussi d'orienter techniquement la maitrise d'œuvre dans sa conception.
+                   </h4>    
+                    
+            </div>
+            <div class="col-lg-5 col_sect3-2-2 col_sect3-2b ">
+                <img class="picture_sec3" src="{% static 'ecobe/assets/images/EtudeDeFaisa.png' %}" alt="" style="max-width: 100%; padding-top: 0%; vertical-align: middle;">
+            </div>
+        </div>
+
+        <div class="container custom_container" id="sous-section5"></div>
+            <div class="row justify-content-lg-center align-items-center">
+                <div class="col-lg-5 col_sect3-1-1">
+                    <img class="picture_sec3" src="{% static 'ecobe/assets/images/atmo.png' %}" alt="" style="max-width: 100%; padding-top: 0%; vertical-align: middle;">
+            </div>
+
+                <div class="col-lg-7 col_sect3-1-2">
+                    <h3 class="text_sect3 no_justify">Assistance technique à maitrise d'ouvrage ; autres services</h3>
+                    <h4 class="sub_text_sect3">Experts indépendants et d'expériences, notre champ d'action est large et varié. Toujours à l'écoute de vos besoins, nous saurons vous réorienter vers le prestataire adapté lorsque le sujet nécessite une expertise précise au-delà de nos compétences.</br>
+                        Sans être exhaustive, les prestations suivantes illustrent la typologie de service que nous vous offrons : <ul>
+                            <li>Analyse d'offre</li>
+                            <li>Dossier technique de dérogation pour le décret tertiiaire/autre obligations règlementaires</li>
+                            <li>Enquête terrain lors de désordres / dysfonctionnements : Causes et responsabilités</li>
+                            <li>Revue / Assistance à la rédaction de contrat de performance énergétique</li>
+                            <li>Revue / Assistance à la rédaction de baux vert</li>
+                            <li>Audit de reporting des performances (ex : ISO 50001)</li>
+                            <li>Production d'éléments de preuve nécessaire lors d'une certification environnementale, conforme au cahier des charges des organisme certificateurs (ex : BREEAM)</li>
+                            <li>...</li>
+                        </ul>
+                    </h4>    
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</section>
+
+<section class="fond_section4" id="section4">
+
+    <div class="container custom_container" >
+        <div class="row" style="text-align: center; padding-top: 3rem;">
+            <h1>Organisation opérationnelle</h1>
+        </div>
+        <div class="row justify-content-md-center" style="text-align: justify; padding-top: 2rem;">
+            <div class="col-sm-12">
+                <h3 style="padding-bottom: 1.5rem;">Des prestations de qualité et adaptées
+                </h3>
+                <p>Nous visons l'excellence pour nos clients. Pour atteindre cet objectif, nous avons construit une organisation opérationnelle basée sur le principe de l'entreprise élargie</hbr>
+                    Quinze années de métier nous ont permis de construire un réseau de partenaire de confiance dans toutes les spécialités. Architecte, bureau d'études spécialisé, avocats, nous avons au fil du temps tisser des liens fort avec des professionnels compétents, aux expertises complémentaires à la notre</br>
+                    Nous fonctionnons en transparence totale et pouvons être amené à réorienter un client vers un de nos partenaire si nous estimons la compétence requise pour répondre à son besoin, au-delà de celles que nous pouvons offrir.</br>
+                    En cas de projet complexe, nos clients ont systématiquement le choix de traiter séparément avec chaque spécialiste, ou de nous garder en interlocuteur unique, responsable de l'ensemble de la mission.</br>
+                    Nous prônons cette transparence d'approche car elle nous parait être le fondement d'une relation de confiance. Et la confiance est le ciment d'une relation sur le long terme.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
