@@ -1,0 +1,128 @@
+.intro {
+    font-size: 10rem;
+}
+
+.memo-intro {
+    position: sticky;
+    font-size: 1rem;
+}
+
+.form_ki_apparait {
+    display: yes;
+}
+
+.etoiles {
+    background-image: url("images\logo-sans-fond-398x192.png");
+}
+
+.question {
+    display: none;
+    font-family: "Droid Sans", arial, verdana, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #EBD71C;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    position: absolute;
+    top: 15%;
+
+}
+
+.reponse-button {
+    font-family: "Droid Sans", arial, verdana, sans-serif;
+    font-size: 1em;
+  font-weight: 700;
+  color: #EBD71C;
+  border-color: #EBD71C;
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  width:8em;
+  height:3em;
+  margin-top: -1.5em; /*set to a negative number 1/2 of your height*/
+  margin-left: -4em; /*set to a negative number 1/2 of your width*/
+  letter-spacing: 0.1em;
+  line-height: 1.1em;
+  border-radius: 0.1em;
+  z-index: 10;
+}
+.reponse-button,
+.reponse-button:active {
+  background: none;
+  border-color: #EBD71C;
+  color: #EBD71C;
+  
+}
+.reponse-button:hover,
+.reponse-button:focus,
+.reponse-button.focus,
+.reponse-button.active {
+  color: black;
+  background-color: rgba(235, 214, 28, 0.7);
+  border-color: #333333;
+}
+.reponse-button.disabled,
+.reponse-button:disabled {
+  color: #ffffff !important;
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+}
+
+.go-button {
+    z-index: 10;
+    display: none;
+    position: relative;
+    
+}
+.invisible {
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    z-index: 0;
+    display: none;
+}
+*
+.go-button-style {
+    font-family: "Droid Sans", arial, verdana, sans-serif;
+    font-size: 2.7em;
+  font-weight: 700;
+  color: #EBD71C;
+  border-color: #EBD71C;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width:15em;
+  height:9em;
+  margin-top: -4.5em; /*set to a negative number 1/2 of your height*/
+  margin-left: -7.5em; /*set to a negative number 1/2 of your width*/
+  letter-spacing: 0.1em;
+  line-height: 2.3em;
+  border-radius: 0.7em;
+}
+.go-button-style,
+.go-button-style:active {
+  background: none;
+  border-color: #EBD71C;
+  color: #EBD71C;
+}
+.go-button-style:hover,
+.go-button-style:focus,
+.go-button-style.focus,
+.go-button-style.active {
+  color: black;
+  background-color: rgba(235, 214, 28, 0.7);
+  border-color: #333333;
+}
+.go-button-style.disabled,
+.go-button-style:disabled {
+  color: #ffffff !important;
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+}
+
+.custom-checkbox {
+  border-color: #EBD71C;
+  border: solid;
+  border-width: thick;
+  box-sizing: ;
+}
